@@ -1,0 +1,46 @@
+.parallax-container {
+    height: 275px;
+  }
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.font {
+font-family: 'Nanum Myeongjo', serif;
+}
+
+.font2 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
+}
+
+.font3 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 18px;
+}
+
+.brand-logo {
+    margin-left: 50px;
+}
+
+#contactForm {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 75px;
+}
+
+.container {
+    margin-top: 35px;
+}
+
+.li {
+    margin-left: 25px;
+    margin-right: 25px;
+}
