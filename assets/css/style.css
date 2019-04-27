@@ -1,5 +1,5 @@
 .parallax-container {
-    height: 275px;
+    height: 300px;
   }
 
 body {
@@ -26,8 +26,17 @@ font-family: 'Nanum Myeongjo', serif;
     font-size: 18px;
 }
 
-.brand-logo {
-    margin-left: 50px;
+.logo1 {
+    font-size: 15px;
+    margin-left: 35px;
+}
+
+.logo2 {
+    font-size: 15px;
+}
+
+.card {
+    height: 300px !important;
 }
 
 #contactForm {
@@ -43,4 +52,8 @@ font-family: 'Nanum Myeongjo', serif;
 .li {
     margin-left: 25px;
     margin-right: 25px;
+}
+
+#dropdown1 {
+    width: 250px;
 }

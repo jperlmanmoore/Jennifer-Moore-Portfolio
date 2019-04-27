@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Parallax Template - Materialize</title>
+    <title>Jennifer Moore</title>
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -18,16 +18,18 @@
 <body>
 
     <!-- navbar -->
+    <!-- TODO make navbar stick ? -->
     <nav>
-        <div class="nav-wrapper white">
-            <a href="#!" class="brand-logo black-text font">J Moore</a>
+        <div class="nav-wrapper grey lighten-5">
+            <a href="#!" class="brand-logo black-text font hide-on-med-and-down" id="logo1">designer|developer</a>
+            <a href="#!" class="brand-logo black-text font show-on-medium-and-down" id="logo2">designer|developer</a>
+            <!--fix so centered on med or smaller-->
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i
                     class="material-icons black-text">menu</i></a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#" class="grey-text text-darken-2 font2">Portfolio</a></li>
-                <li><a href="#" class="grey-text text-darken-2 font2">About Me</a></li>
-                <li><a href="#" class="grey-text text-darken-2 font2">Contact</a></li>
-                <li><a href="#" class="grey-text text-darken-2 font2">Blog</a></li>
+                <li><a href="#" class="grey-text text-darken-2 font2">PROJECTS</a></li>
+                <li><a href="#" class="grey-text text-darken-2 font2">ABOUT ME</a></li>
+                <li><a href="#" class="grey-text text-darken-2 font2">BLOG</a></li>
             </ul>
         </div>
     </nav>
@@ -41,126 +43,186 @@
 
     <!-- parallax -->
     <div class="parallax-container">
-        <div class="parallax"><img src="assets/images/buttons-computer-keyboard-device-34490.jpg" style="width: 50%">
+        <div class="parallax"><img src="assets/images/DSC_2790_2.JPG" style="width: 50%">
         </div>
     </div>
-    <div class="section white">
+    <div class="section grey lighten-4">
         <div class="row container">
-            <h2 class="header font">Need a developer?</h2>
-            <blockquote class="grey-text text-darken-1 font3 flow-text">Hello, I'm Jennifer Moore. I want to make your
-                place on the web beautiful. I have experience using SPECIFIC FRONT END. Also, I have experience using
-                SPECIFIC BACKEND. I can help you figure out your problems by designing and building creative and useful
-                frontend and backend web applications. </blockquote>
-            <a class="waves-effect waves-light btn grey lighten-3 font2 black-text">email me</a>
+            <h2 class="header font">Need a designer|developer?</h2>
+            <blockquote class="grey-text text-darken-1 font3 flow-text">Hi, I'm Jennifer Moore. <br><hr>Let's make your
+                place on the web functional and beautiful.
+            </blockquote>
+            <!-- <a class="waves-effect waves-light btn btn-flat grey lighten-5 black-text font3 grey-text text-darken-1">email me</a> -->
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="assets/images/archives-keys-mechanically-33130.jpg" style="width: 50%">
+        </div>
+    </div>
+    <div class="section grey lighten-4">
+        <div class="row container">
+            <!-- <div class="container"> -->
+            <h2 class="font header text-grey text-darken-2">projects</h2>
+            <div class="row">
+                <div class="col s12 m5">
+                    <!-- card1 -->
+                    <div class="card medium">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="assets/images/_DSC5504.JPG">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Star Wars RPG<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p class="text-red text-lighten-3"><a href="#">In action see it</a></p>
+                            <hr>
+                            <p class="text-red text-lighten-3"><a href="#">View the code.</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Star Wars RPG<i
+                                    class="material-icons right">close</i></span>
+                            <p>This project uses Html, CSS, Bootstrap, and Javascript, and JQuery. In this fun game, I had the opportunity to 
+                                really learn about dynamic rendering of elements in the DOM through javascript. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col m1"></div>
+
+                <!-- card2 -->
+                <div class="col s12 m5">
+                    <div class="card medium">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="assets/images/_DSC5159-5.JPG">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">OMG Gifs!<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="#">YOLO so treat yoself!</a></p>
+                            <hr>
+                            <p><a href="#">View the code.</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">OMG Gifs!<i
+                                    class="material-icons right">close</i></span>
+                            <p>This project uses Html, CSS, Bootstrap, and Javascript, and JQuery. While it was an opportunity to
+                                build my experience with Bootstrap and Javascript, I had the opportunity to learn about
+                                API calls.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col s12 m5">
+                    <!-- card3 -->
+                    <div class="card medium">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="assets/images/_DSC7814.JPG">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Word Guess<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="#">_ _ P L A Y _ _</a></p>
+                            <hr>
+                            <p><a href="#">View the code.</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Word Guess<i
+                                    class="material-icons right">close</i></span>
+                            <p>This project uses SPECIFIC TECH</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col m1"></div>
+
+                <div class="col s12 m5">
+                    <!-- card4 -->
+                    <div class="card medium">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="assets/images/DSC_1087.JPG">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Budget Bootcamp<i
+                                    class="material-icons right">more_vert</i></span>
+                            <p><a href="#">$$$</a></p>
+                            <hr>
+                            <p><a href="#">View the code.</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Budget Bootcamp<i
+                                    class="material-icons right">close</i></span>
+                            <p>This was a group project in the GA Tech Coding Bootcamp. We utilized the technoligies we
+                                had already learned, including Html, CSS, Javascript and APIs. In this I learned and
+                                implemented the Materalize CSS framework, and also experiemented with input validation,
+                                both built into Materalize CSS and also with the JQuery Validator plugin.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="assets/images/art-background-canvas-1484759.jpg" style="width: 50%">
+        </div>
+    </div>
+
+    <div class="section grey lighten-4">
+        <div class="row container">
+            <h2 class="header font">skills & experience</h2>
+            <blockquote class="grey-text text-darken-1 font3 flow-text">designer|developer
+            </blockquote>
+            <div class="font3"> My experience with web design and development started the GA Tech Coding Bootcamp in February
+                2019, but my experience in design started much earlier when I studied art in college and worked as a graphic designer,
+                 and I developed communication skills over my career as a lawyer. 
+                <br>
+                <br>
+                To make the transition into development, I have learned to implement frontend technologies including HTML, CSS, Bootstrap, and Materalize CSS, 
+                and backend including, JavaScript, JQuery, APIs, and Firebase. As a developer, I enjoy creative collaboration and problem solving. I seek opportunities for both design and
+                code. I'm eager to make an impact on your idea or project.
+                <br>
+                <br>
+                My work has taken several directions - from artist, to non-profit work, to lawyer, and now web designer|developer - 
+                I have always been grateful for the opportunity for service in helping others and resolving problems. Web design and developement is a 
+                natural extension. I'm excited to use my skills in design, communication, and development to help you have a beautiful and functional place on the web.            
+            </div>
+            <br>
+            <!-- <div>LIST SPECIFIC TECHS HERE BY CATEGORY & MAYBE WITH ICONS, TOO.</div> -->
+            <br>
+            <!-- <a class="waves-effect waves-light btn btn-flat grey lighten-4 font2 black-text">email me</a> -->
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="assets/images/blank-close-up-crumpled-479453.jpg" style="width: 50%">
+        </div>
+    </div>
+
+
+    <div class="section grey lighten-4">
+        <div class="row container">
+            <h2 class="header font">Resume</h2>
+            <div class="grey-text text-darken-1 font3 flow-text">Hello, I'm Jennifer Moore. I want to make your
+                place on the web beautiful and functional.
+                <br>
+                I have experience in front
+            </div>
+            <!-- <a class="waves-effect waves-light btn btn-flat grey lighten-4 font2 black-text">email me</a> -->
         </div>
     </div>
     <div class="parallax-container">
         <div class="parallax"><img src="assets/images/architecture-attractive-background-988873.jpg" style="width: 50%">
         </div>
     </div>
-    <div class="section white">
-            <div class="row container">
-                    <!-- <div class="container"> -->
-                            <h2 class="font header text-grey text-darken-2">projects</h2>
-                            <div class="row">
-                                <div class="col s12 m5">
-                                    <div class="card medium">
-                                        <div class="card-image waves-effect waves-block waves-light">
-                                            <img class="activator" src="assets/images/_DSC5504.JPG">
-                                        </div>
-                                        <div class="card-content">
-                                            <span class="card-title activator grey-text text-darken-4">Star Wars RPG<i
-                                                    class="material-icons right">more_vert</i></span>
-                                            <p><a href="#">In action see it</a></p>
-                                            <hr>
-                                            <p><a href="#">View the code.</a></p>
-                                        </div>
-                                        <div class="card-reveal">
-                                            <span class="card-title grey-text text-darken-4">Star Wars RPG<i
-                                                    class="material-icons right">close</i></span>
-                                            <p>This project uses SPECIFIC TECH</p>
-                                        </div>
-                                    </div>
-                                </div>
-                    
-                                <div class="col m1"></div>
-                    
-                                <div class="col s12 m5">
-                                    <div class="card medium">
-                                        <div class="card-image waves-effect waves-block waves-light">
-                                            <img class="activator" src="assets/images/_DSC5159-5.JPG">
-                                        </div>
-                                        <div class="card-content">
-                                            <span class="card-title activator grey-text text-darken-4">OMG Gifs!<i
-                                                    class="material-icons right">more_vert</i></span>
-                                            <p><a href="#">YOLO so treat yoself!</a></p>
-                                            <hr>
-                                            <p><a href="#">View the code.</a></p>
-                                        </div>
-                                        <div class="card-reveal">
-                                            <span class="card-title grey-text text-darken-4">OMG Gifs!<i
-                                                    class="material-icons right">close</i></span>
-                                            <p>This project uses SPECIFIC TECH</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                    
-                    
-                            <div class="row">
-                                <div class="col s12 m5">
-                                    <div class="card medium">
-                                        <div class="card-image waves-effect waves-block waves-light">
-                                            <img class="activator" src="assets/images/_DSC7814.JPG">
-                                        </div>
-                                        <div class="card-content">
-                                            <span class="card-title activator grey-text text-darken-4">Star Wars RPG<i
-                                                    class="material-icons right">more_vert</i></span>
-                                            <p><a href="#">In action see it</a></p>
-                                            <hr>
-                                            <p><a href="#">View the code.</a></p>
-                                        </div>
-                                        <div class="card-reveal">
-                                            <span class="card-title grey-text text-darken-4">Star Wars RPG<i
-                                                    class="material-icons right">close</i></span>
-                                            <p>This project uses SPECIFIC TECH</p>
-                                        </div>
-                                    </div>
-                                </div>
-                    
-                                <div class="col m1"></div>
-                    
-                                <div class="col s12 m5">
-                                    <div class="card medium">
-                                        <div class="card-image waves-effect waves-block waves-light">
-                                            <img class="activator" src="assets/images/_DSC6215.JPG">
-                                        </div>
-                                        <div class="card-content">
-                                                <span class="card-title activator grey-text text-darken-4">Star Wars RPG<i class="material-icons right">more_vert</i></span>
-                                                <p><a href="#">In action see it</a></p>
-                                                <hr>
-                                                <p><a href="#">View the code.</a></p>
-                                              </div>
-                                              <div class="card-reveal">
-                                                <span class="card-title grey-text text-darken-4">Star Wars RPG<i class="material-icons right">close</i></span>
-                                                <p>This project uses SPECIFIC TECH</p>
-                                              </div>
-                                            </div>
-                                    </div>
-                                </div>
-                            </div>        
-                    
-                                
-                        </div>
-        </div>
-        <div class="parallax-container">
-            <div class="parallax"><img src="assets/images/architecture-attractive-background-988873.jpg" style="width: 50%">
-            </div>
-        </div>
 
 
     <!-- card structure -->
-    
+
 
     <!-- <div class="footer-copyright">
         <div class="container">
@@ -173,13 +235,15 @@
             <div class="row">
                 <div class="col l6 s12">
                     <h5 class="font2 black-text red-text text-lighten-2">jperlmanmoore@gmail.com</h5>
-                    <p class="grey-text text-darken-2 font2">Developer wanting to help you find solutions.</p>
+                    <p class="grey-text text-darken-2 font2">Jennifer Moore</p>
+                    <p class="grey-text text-darken-2 font2">Designer and developer wanting to help you find beautiful and durable
+                        solutions.</p>
                 </div>
                 <div class="col l4 offset-l2 s12">
                     <h5 class="white-text">Links</h5>
                     <ul>
-                        <li><a class="grey-text text-darken-2 font2" href="#!">Link 1</a></li>
-                        <li><a class="grey-text text-darken-2 font2" href="#!">Link 2</a></li>
+                        <li><a class="grey-text text-darken-2 font2" href="#!">LinkedIn</a></li>
+                        <li><a class="grey-text text-darken-2 font2" href="#!">FB</a></li>
                         <li><a class="grey-text text-darken-2 font2" href="#!">Link 3</a></li>
                         <li><a class="grey-text text-darken-2 font2" href="#!">Link 4</a></li>
                     </ul>
