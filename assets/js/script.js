@@ -1,5 +1,7 @@
 $(document).ready(function(){
-	$('.parallax').parallax();
+	$('.parallax').parallax({
+		responsiveThreshold: 640,
+	});
 	$('.sidenav').sidenav();
 	$('.dropdown-trigger').dropdown();
   });

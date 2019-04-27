@@ -35,8 +35,12 @@ font-family: 'Nanum Myeongjo', serif;
     font-size: 15px;
 }
 
+/* .h4 {
+    margin-left: 50px;
+} */
+
 .card {
-    height: 300px !important;
+    height: 400px !important;
 }
 
 #contactForm {
