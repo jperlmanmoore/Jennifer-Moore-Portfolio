@@ -1,5 +1,5 @@
 .parallax-container {
-    height: 300px;
+    height: 250px;
   }
 
 body {
@@ -28,7 +28,7 @@ font-family: 'Nanum Myeongjo', serif;
 
 .logo1 {
     font-size: 15px;
-    margin-left: 35px;
+    padding-left: 50px !important;
 }
 
 .logo2 {
@@ -60,4 +60,12 @@ font-family: 'Nanum Myeongjo', serif;
 
 #dropdown1 {
     width: 250px;
+}
+
+#link {
+    margin-left: 15px;
+}
+
+blockquote {
+    border-left: 5px solid rgb(5, 179, 248)
 }

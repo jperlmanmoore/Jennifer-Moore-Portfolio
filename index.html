@@ -27,18 +27,19 @@
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i
                     class="material-icons black-text">menu</i></a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#" class="grey-text text-darken-2 font2">PROJECTS</a></li>
-                <li><a href="#" class="grey-text text-darken-2 font2">ABOUT ME</a></li>
+    <!-- these will link to A tag further down the page -->
+                <li><a href="#projects" class="grey-text text-darken-2 font2">PROJECTS</a></li>
+                <li><a href="#experience" class="grey-text text-darken-2 font2">EXPERIENCE</a></li>
                 <li><a href="#" class="grey-text text-darken-2 font2">BLOG</a></li>
             </ul>
         </div>
     </nav>
 
+    <!-- these will link to A tag further down the page -->
     <ul class="sidenav" id="mobile-demo">
-        <li><a href="#" class="grey-text text-darken-2 font2">Portfolio</a></li>
-        <li><a href="#" class="grey-text text-darken-2 font2">About Me</a></li>
-        <li><a href="#" class="grey-text text-darken-2 font2">Contact</a></li>
-        <li><a href="#" class="grey-text text-darken-2 font2">Blog</a></li>
+        <li><a href="#projects" class="grey-text text-darken-2 font2">PROJECTS</a></li>
+        <li><a href="#" class="grey-text text-darken-2 font2">EXPERIENCE</a></li>
+        <li><a href="#" class="grey-text text-darken-2 font2">BLOG</a></li>
     </ul>
 
     <!-- parallax -->
@@ -46,12 +47,17 @@
         <div class="parallax"><img src="assets/images/9.jpg" style="width: 50%">
         </div>
     </div>
-    <div class="section grey lighten-4">
+    <div class="section grey lighten-5">
         <div class="row container">
             <h2 class="header font hide-on-med-and-down">Need a designer|developer?</h2>
-            <h4 class="header font show-on-med-and-down">Need a designer|developer?</h4>
-            <blockquote class="grey-text text-darken-1 font3 flow-text">Hi, I'm Jennifer Moore. <br><hr>Let's make your
-                place on the web functional and beautiful.
+            <h4 class="header font show-on-med-and-down hide-on-large-only">Need a designer|developer?</h4>
+            <blockquote class=" grey-text text-darken-1 font3">Hi, I'm Jennifer Moore. <br><br>Let's make your
+                place on the web functional, easy to use, and beautiful.
+                <hr>
+                <br>
+                <a class="font3" href="www.linkedin.com/in/jennifer-moore-10b2b65">LinkedIn</a>
+                <a class="font3" id="link" href="https://github.com/jperlmanmoore">Github</a>
+                <a class="font3" id="link" href="assets/pdf/Jennifer_Moore.pdf">Resume</a>
             </blockquote>
             <!-- <a class="waves-effect waves-light btn btn-flat grey lighten-5 black-text font3 grey-text text-darken-1">email me</a> -->
         </div>
@@ -60,10 +66,10 @@
         <div class="parallax"><img src="assets/images/1.jpg" style="width: 50%">
         </div>
     </div>
-    <div class="section grey lighten-4">
+    <div class="section grey lighten-5">
         <div class="row container">
             <!-- <div class="container"> -->
-            <h2 class="font header text-grey text-darken-2">projects</h2>
+            <h2 id="projects" class="font header text-grey text-darken-2">projects</h2>
             <div class="row">
                 <div class="col s12 m5">
                     <!-- card1 -->
@@ -74,15 +80,16 @@
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">Star Wars RPG<i
                                     class="material-icons right">more_vert</i></span>
-                            <p class="text-red text-lighten-3"><a href="#">In action see it</a></p>
+                            <p class="text-red text-lighten-3"><a href="#">See it in action</a></p>
                             <hr>
                             <p class="text-red text-lighten-3"><a href="#">View the code.</a></p>
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">Star Wars RPG<i
                                     class="material-icons right">close</i></span>
-                            <p>This project uses Html, CSS, Bootstrap, and Javascript, and JQuery. In this fun game, I had the opportunity to 
-                                really learn about dynamic rendering of elements in the DOM through javascript. 
+                            <p>This project uses Html, CSS, Bootstrap, and Javascript, and JQuery. In this fun game, I
+                                had the opportunity to
+                                really learn about dynamic rendering of elements in the DOM through javascript.
                             </p>
                         </div>
                     </div>
@@ -99,14 +106,15 @@
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">OMG Gifs!<i
                                     class="material-icons right">more_vert</i></span>
-                            <p><a href="#">YOLO so treat yoself!</a></p>
+                            <p><a href="https://jperlmanmoore.github.io/giphy-api/">YOLO so treat yoself!</a></p>
                             <hr>
-                            <p><a href="#">View the code.</a></p>
+                            <p><a href="https://github.com/jperlmanmoore/giphy-api">View the code.</a></p>
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">OMG Gifs!<i
                                     class="material-icons right">close</i></span>
-                            <p>This project uses Html, CSS, Bootstrap, and Javascript, and JQuery. While it was an opportunity to
+                            <p>This project uses Html, CSS, Bootstrap, and Javascript, and JQuery. While it was an
+                                opportunity to
                                 build my experience with Bootstrap and Javascript, I had the opportunity to learn about
                                 API calls.</p>
                         </div>
@@ -174,45 +182,53 @@
         </div>
     </div>
 
-    <div class="section grey lighten-4">
+    <div class="section grey lighten-5">
         <div class="row container">
-            <h2 class="header font">skills & experience</h2>
+            <h2 id="experience" class="header font">skills & experience</h2>
             <blockquote class="grey-text text-darken-1 font3 flow-text">designer|developer
             </blockquote>
-            <div class="font3"> My experience with web design and development started the GA Tech Coding Bootcamp in February
-                2019, but my experience in design started much earlier when I studied art in college and worked as a graphic designer,
-                 and I developed communication skills over my career as a lawyer. 
+            <div class="font3">
+                My work has taken several directions - from artist, to non-profit work, to lawyer, and now web
+                designer|developer -
+                I have always been grateful for the opportunity for service in helping others and resolving problems.
+                Web design and developement is a
+                natural extension. I'm excited to use my skills in design, communication, and development to help you
+                have a beautiful and functional place on the web.
                 <br>
                 <br>
-                To make the transition into development, I have learned to implement frontend technologies including HTML, CSS, Bootstrap, and Materalize CSS, 
-                and backend including, JavaScript, JQuery, APIs, and Firebase. As a developer, I enjoy creative collaboration and problem solving. I seek opportunities for both design and
+                My experience with web design and development started the GA Tech Coding Bootcamp in February
+                2019, but my experience in design started much earlier when I studied art in college,
+                and I developed storytelling and communication skills over my career as a lawyer.
+                <br>
+                <br>
+                To make the transition into design and development, I have learned to implement frontend technologies
+                including HTML, CSS, Bootstrap, and Materalize CSS,
+                and backend including, JavaScript, JQuery, APIs, and Firebase. As a developer, I enjoy creative
+                collaboration and problem solving. I seek opportunities for both design and
                 code. I'm eager to make an impact on your idea or project.
                 <br>
                 <br>
-                My work has taken several directions - from artist, to non-profit work, to lawyer, and now web designer|developer - 
-                I have always been grateful for the opportunity for service in helping others and resolving problems. Web design and developement is a 
-                natural extension. I'm excited to use my skills in design, communication, and development to help you have a beautiful and functional place on the web.            
+
             </div>
             <br>
             <!-- <div>LIST SPECIFIC TECHS HERE BY CATEGORY & MAYBE WITH ICONS, TOO.</div> -->
             <br>
             <hr>
-            <br>
-            <h2 class="header font">Resume</h2>
-            <blockquote class="grey-text text-darken-1 font3 flow-text"><a href="#1">take a copy
-                </blockquote>
+            <h2 class="header font">resume</h2>
+            <blockquote class="grey-text text-darken-1 font3 flow-text"><a href="assets/pdf/Jennifer_Moore.pdf">take a copy
+            </blockquote>
             <!-- <a class="waves-effect waves-light btn btn-flat grey lighten-4 font2 black-text">email me</a> -->
         </div>
     </div>
 
-    <div class="section grey lighten-4">
-            <div class="row container">
-                
-                <!-- <a class="waves-effect waves-light btn btn-flat grey lighten-4 font2 black-text">email me</a> -->
-            </div>
+    <div class="section grey lighten-5">
+        <div class="row container">
+
+            <!-- <a class="waves-effect waves-light btn btn-flat grey lighten-4 font2 black-text">email me</a> -->
+        </div>
 
 
-    <!-- <div class="parallax-container hide-on-small-and-down">
+        <!-- <div class="parallax-container hide-on-small-and-down">
         <div class="parallax"><img src="assets/images/blank-close-up-crumpled-479453.jpg" style="width: 50%">
         </div>
     </div> -->
@@ -237,18 +253,21 @@
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
-                    <h5 class="font2 black-text red-text text-lighten-2">jperlmanmoore@gmail.com</h5>
-                    <p class="grey-text text-darken-2 font2">Jennifer Moore</p>
-                    <p class="grey-text text-darken-2 font2">Designer and developer wanting to help you find beautiful and durable
+                    <h5 class="font2 black-text blue-text text-lighten-2">jperlmanmoore@gmail.com</h5>
+                    <p class="grey-text text-darken-2 font2">Jennifer Moore<br>478-262-8273<br>Macon, GA</p>
+                    <p class="grey-text text-darken-2 font2">Designer and developer wanting to help you find beautiful
+                        and durable
                         solutions.</p>
                 </div>
                 <div class="col l4 offset-l2 s12">
                     <h5 class="white-text">Links</h5>
                     <ul>
-                        <li><a class="grey-text text-darken-2 font2" href="www.linkedin.com/in/jennifer-moore-10b2b65">LinkedIn</a></li>
-                        <li><a class="grey-text text-darken-2 font2" href="https://github.com/jperlmanmoore">github</a></li>
+                        <li><a class="grey-text text-darken-2 font2"
+                                href="www.linkedin.com/in/jennifer-moore-10b2b65">LinkedIn</a></li>
+                        <li><a class="grey-text text-darken-2 font2" href="https://github.com/jperlmanmoore">github</a>
+                        </li>
                         <li><a class="grey-text text-darken-2 font2" href="#!">Twitter</a></li>
-                        <li><a class="grey-text text-darken-2 font2" href="#!">resume</a></li>
+                        <li><a class="grey-text text-darken-2 font2" href="assets/pdf/Jennifer_Moore.pdf">resume</a></li>
                     </ul>
                 </div>
             </div>
