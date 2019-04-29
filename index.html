@@ -21,55 +21,58 @@
     <!-- TODO make navbar stick ? -->
     <nav>
         <div class="nav-wrapper grey lighten-5">
-            <a href="#!" class="brand-logo black-text font hide-on-med-and-down" id="logo1">designer|developer</a>
-            <a href="#!" class="brand-logo black-text font show-on-medium-and-down" id="logo2">designer|developer</a>
+            <a href="#!" class="brand-logo black-text font hide-on-med-and-down">designer|developer</a>
+            <a href="#!" class="brand-logo black-text font show-on-medium-and-down">designer|developer</a>
             <!--fix so centered on med or smaller-->
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i
                     class="material-icons black-text">menu</i></a>
             <ul class="right hide-on-med-and-down">
-    <!-- these will link to A tag further down the page -->
-                <li><a href="#projects" class="grey-text text-darken-2 font2">PROJECTS</a></li>
-                <li><a href="#experience" class="grey-text text-darken-2 font2">EXPERIENCE</a></li>
-                <li><a href="#" class="grey-text text-darken-2 font2">BLOG</a></li>
+                <!-- these will link to A tag further down the page -->
+                <li><a href="#projects" class="font3 grey-text text-darken-2">PROJECTS</a></li>
+                <li><a href="#experience" class="font3 grey-text text-darken-2">EXPERIENCE</a></li>
+                <li><a href="assets/pdf/Jennifer_Moore.pdf" class="font3 grey-text text-darken-2">RESUME</a></li>
             </ul>
         </div>
     </nav>
 
     <!-- these will link to A tag further down the page -->
     <ul class="sidenav" id="mobile-demo">
-        <li><a href="#projects" class="grey-text text-darken-2 font2">PROJECTS</a></li>
-        <li><a href="#" class="grey-text text-darken-2 font2">EXPERIENCE</a></li>
-        <li><a href="#" class="grey-text text-darken-2 font2">BLOG</a></li>
+        <li><a href="#projects" class="font3 grey-text text-darken-2">PROJECTS</a></li>
+        <li><a href="#" class="font3 grey-text text-darken-2">EXPERIENCE</a></li>
+        <li><a href="#" class="font3 grey-text text-darken-2">RESUME</a></li>
     </ul>
 
     <!-- parallax -->
     <div class="parallax-container hide-on-small-and-down">
-        <div class="parallax"><img src="assets/images/9.jpg" style="width: 50%">
+        <div class="parallax"><img src="assets/images/lightbulb.jpg" style="width: 50%">
         </div>
     </div>
-    <div class="section grey lighten-5">
+    <div class="section grey lighten-5"></div>
+    <div id="openPage" class="section grey lighten-5">
         <div class="row container">
-            <h2 class="header font hide-on-med-and-down">Need a designer|developer?</h2>
-            <h4 class="header font show-on-med-and-down hide-on-large-only">Need a designer|developer?</h4>
-            <blockquote class=" grey-text text-darken-1 font3">Hi, I'm Jennifer Moore. <br><br>Let's make your
-                place on the web functional, easy to use, and beautiful.
-                <hr>
+            <h2 class="header font hide-on-med-and-down center-align">Need a designer|developer?</h2>
+            <h4 class="header font show-on-med-and-down hide-on-large-only center-align">Need a designer|developer?</h4>
+            <h2 id="lineheight" class="center-align grey-text text-darken-1 font3">Hi, I'm Jennifer Moore. Let's make your
+                place on the web & make it beautiful.
                 <br>
-                <a class="font3" href="www.linkedin.com/in/jennifer-moore-10b2b65">LinkedIn</a>
+                <br>
+                <a class="font3" href="https://www.linkedin.com/in/jennifer-moore-10b2b65/">LinkedIn</a>
                 <a class="font3" id="link" href="https://github.com/jperlmanmoore">Github</a>
                 <a class="font3" id="link" href="assets/pdf/Jennifer_Moore.pdf">Resume</a>
-            </blockquote>
-            <!-- <a class="waves-effect waves-light btn btn-flat grey lighten-5 black-text font3 grey-text text-darken-1">email me</a> -->
+            </h2>
         </div>
     </div>
+
     <div class="parallax-container hide-on-small-and-down">
-        <div class="parallax"><img src="assets/images/1.jpg" style="width: 50%">
+        <div class="parallax"><img src="assets/images/make_it_happen.jpg" style="width: 50%">
         </div>
     </div>
     <div class="section grey lighten-5">
         <div class="row container">
             <!-- <div class="container"> -->
             <h2 id="projects" class="font header text-grey text-darken-2">projects</h2>
+            <blockquote class="grey-text text-darken-1 font3">view the project & code
+                </blockquote>
             <div class="row">
                 <div class="col s12 m5">
                     <!-- card1 -->
@@ -78,16 +81,18 @@
                             <img class="activator" src="assets/images/starwars.png">
                         </div>
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Star Wars RPG<i
+                            <span class="card-title activator grey-text text-darken-1 font3">Star Wars RPG<i
                                     class="material-icons right">more_vert</i></span>
-                            <p class="text-red text-lighten-3"><a href="#">See it in action</a></p>
+                            <p class="font3"><a
+                                    href="https://github.com/jperlmanmoore/unit-4-game">See it in action</a></p>
                             <hr>
-                            <p class="text-red text-lighten-3"><a href="#">View the code.</a></p>
+                            <p class="font3"><a
+                                    href="https://jperlmanmoore.github.io/unit-4-game/">View the code.</a></p>
                         </div>
                         <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Star Wars RPG<i
+                            <span class="card-title grey-text text-darken-1 font3">Star Wars RPG<i
                                     class="material-icons right">close</i></span>
-                            <p>This project uses Html, CSS, Bootstrap, and Javascript, and JQuery. In this fun game, I
+                            <p class="font3">This project uses Html, CSS, Bootstrap, and Javascript, and JQuery. In this fun game, I
                                 had the opportunity to
                                 really learn about dynamic rendering of elements in the DOM through javascript.
                             </p>
@@ -101,19 +106,19 @@
                 <div class="col s12 m5">
                     <div class="card medium">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="#">
+                            <img class="activator" src="assets/images/giphy.png">
                         </div>
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">OMG Gifs!<i
+                            <span class="card-title activator grey-text text-darken-1 font3">OMG Gifs!<i
                                     class="material-icons right">more_vert</i></span>
-                            <p><a href="https://jperlmanmoore.github.io/giphy-api/">YOLO so treat yoself!</a></p>
+                            <p><a class="font3" href="https://jperlmanmoore.github.io/giphy-api/">YOLO, so check it out!</a></p>
                             <hr>
-                            <p><a href="https://github.com/jperlmanmoore/giphy-api">View the code.</a></p>
+                            <p><a class="font3" href="https://github.com/jperlmanmoore/giphy-api">View the code.</a></p>
                         </div>
                         <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">OMG Gifs!<i
+                            <span class="font3 card-title grey-text text-darken-1">OMG Gifs!<i
                                     class="material-icons right">close</i></span>
-                            <p>This project uses Html, CSS, Bootstrap, and Javascript, and JQuery. While it was an
+                            <p class="font3">This project uses Html, CSS, Bootstrap, and Javascript, and JQuery. While it was an
                                 opportunity to
                                 build my experience with Bootstrap and Javascript, I had the opportunity to learn about
                                 API calls.</p>
@@ -121,7 +126,6 @@
                     </div>
                 </div>
             </div>
-
 
             <div class="row">
                 <div class="col s12 m5">
@@ -131,16 +135,16 @@
                             <img class="activator" src="assets/images/wordguesscover2.png">
                         </div>
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Word Guess<i
+                            <span class="card-title activator grey-text text-darken-1 font3">Word Guess<i
                                     class="material-icons right">more_vert</i></span>
-                            <p><a href="#">_ _ P L A Y _ _</a></p>
+                            <p><a href="https://jperlmanmoore.github.io/word-guess-game/">_ _ P L A Y _ _</a></p>
                             <hr>
-                            <p><a href="#">View the code.</a></p>
+                            <p><a href="https://github.com/jperlmanmoore/word-guess-game">View the code.</a></p>
                         </div>
                         <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Word Guess<i
+                            <span class="card-title grey-text text-darken-1 font3">Word Guess<i
                                     class="material-icons right">close</i></span>
-                            <p>This project uses SPECIFIC TECH</p>
+                            <p class="font3">This project uses HTMl, CSS, Bootstrap, and Javascript.</p>
                         </div>
                     </div>
                 </div>
@@ -154,16 +158,16 @@
                             <img class="activator" src="assets/images/budget.png">
                         </div>
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Budget Bootcamp<i
+                            <span class="card-title activator grey-text text-darken-1 font3">Budget Bootcamp<i
                                     class="material-icons right">more_vert</i></span>
-                            <p><a href="#">$$$</a></p>
+                            <p><a href="https://jperlmanmoore.github.io/TaxBars/">$$$</a></p>
                             <hr>
-                            <p><a href="#">View the code.</a></p>
+                            <p><a href="https://github.com/jperlmanmoore/TaxBars">View the code.</a></p>
                         </div>
                         <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Budget Bootcamp<i
+                            <span class="card-title grey-text text-darken-1 font3">Budget Bootcamp<i
                                     class="material-icons right">close</i></span>
-                            <p>This was a group project in the GA Tech Coding Bootcamp. We utilized the technoligies we
+                            <p class="font3">This was a group project in the GA Tech Coding Bootcamp. We utilized the technoligies we
                                 had already learned, including Html, CSS, Javascript and APIs. In this I learned and
                                 implemented the Materalize CSS framework, and also experiemented with input validation,
                                 both built into Materalize CSS and also with the JQuery Validator plugin.</p>
@@ -173,22 +177,21 @@
             </div>
         </div>
 
-
     </div>
     </div>
 
     <div class="parallax-container hide-on-small-and-down">
-        <div class="parallax"><img src="assets/images/4.jpg" style="width: 50%">
+        <div class="parallax"><img src="assets/images/think_out_box3.jpg" style="width: 50%">
         </div>
     </div>
 
     <div class="section grey lighten-5">
         <div class="row container">
             <h2 id="experience" class="header font">skills & experience</h2>
-            <blockquote class="grey-text text-darken-1 font3 flow-text">designer|developer
+            <blockquote class="grey-text text-darken-1 font3">designer | developer
             </blockquote>
-            <div class="font3">
-                My work has taken several directions - from artist, to non-profit work, to lawyer, and now web
+            <h5 id="lineheight" class="font3 grey-text text-darken-1">
+                My career has taken several directions - from artist, to non-profit work, to lawyer, and now web
                 designer|developer -
                 I have always been grateful for the opportunity for service in helping others and resolving problems.
                 Web design and developement is a
@@ -206,25 +209,20 @@
                 and backend including, JavaScript, JQuery, APIs, and Firebase. As a developer, I enjoy creative
                 collaboration and problem solving. I seek opportunities for both design and
                 code. I'm eager to make an impact on your idea or project.
-                <br>
-                <br>
+            </h5>
 
-            </div>
-            <br>
-            <!-- <div>LIST SPECIFIC TECHS HERE BY CATEGORY & MAYBE WITH ICONS, TOO.</div> -->
-            <br>
-            <hr>
-            <h2 class="header font">resume</h2>
-            <blockquote class="grey-text text-darken-1 font3 flow-text"><a href="assets/pdf/Jennifer_Moore.pdf">take a copy
-            </blockquote>
-            <!-- <a class="waves-effect waves-light btn btn-flat grey lighten-4 font2 black-text">email me</a> -->
+            <!-- <h2 class="header font">resume</h2>
+            <blockquote class="grey-text text-darken-1  flow-text"><a href="assets/pdf/Jennifer_Moore.pdf">take a
+                    copy
+            </blockquote> -->
+            <!-- <a class="waves-effect waves-light btn btn-flat grey lighten-4 black-text">email me</a> -->
         </div>
     </div>
 
     <div class="section grey lighten-5">
         <div class="row container">
 
-            <!-- <a class="waves-effect waves-light btn btn-flat grey lighten-4 font2 black-text">email me</a> -->
+            <!-- <a class="waves-effect waves-light btn btn-flat grey light black-text">email me</a> -->
         </div>
 
 
@@ -235,7 +233,7 @@
 
     </div>
     <div class="parallax-container hide-on-small-and-down">
-        <div class="parallax"><img src="assets/images/5.jpg" style="width: 50%">
+        <div class="parallax"><img src="assets/images/lightbubbles.jpg" style="width: 50%">
         </div>
     </div>
 
@@ -253,21 +251,21 @@
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
-                    <h5 class="font2 black-text blue-text text-lighten-2">jperlmanmoore@gmail.com</h5>
-                    <p class="grey-text text-darken-2 font2">Jennifer Moore<br>478-262-8273<br>Macon, GA</p>
-                    <p class="grey-text text-darken-2 font2">Designer and developer wanting to help you find beautiful
+                    <h5 class="black-text blue-text text-lighten-2">jperlmanmoore@gmail.com</h5>
+                    <p class="grey-text text-darken-2">Jennifer Moore<br>478-123-4567<br>Macon, GA</p>
+                    <p class="grey-text text-darken-2">Designer and developer wanting to help you find beautiful
                         and durable
                         solutions.</p>
                 </div>
                 <div class="col l4 offset-l2 s12">
                     <h5 class="white-text">Links</h5>
                     <ul>
-                        <li><a class="grey-text text-darken-2 font2"
+                        <li><a class="grey-text text-darken-2"
                                 href="www.linkedin.com/in/jennifer-moore-10b2b65">LinkedIn</a></li>
-                        <li><a class="grey-text text-darken-2 font2" href="https://github.com/jperlmanmoore">github</a>
+                        <li><a class="grey-text text-darken-2" href="https://github.com/jperlmanmoore">github</a>
                         </li>
-                        <li><a class="grey-text text-darken-2 font2" href="#!">Twitter</a></li>
-                        <li><a class="grey-text text-darken-2 font2" href="assets/pdf/Jennifer_Moore.pdf">resume</a></li>
+                        <li><a class="grey-text text-darken-2" href="assets/pdf/Jennifer_Moore.pdf">resume</a>
+                        </li>
                     </ul>
                 </div>
             </div>
